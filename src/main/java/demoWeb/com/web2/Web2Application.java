@@ -15,5 +15,9 @@ public class Web2Application {
 	public String display(){
 		return "okbe swa shakila";
 	}
+	@GetMapping("/ekula")
+	public String display2(){
+		return "ekula akilna";
+	}
 
 }
